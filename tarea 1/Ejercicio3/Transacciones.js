@@ -1,6 +1,5 @@
 export default class Transacciones{
     constructor(ID, nombre, banco, monto, fecha=date){
-        /*.touppercase= Mayusculas, .toLowerCase= Minusculas*/
 
         this._ID = ID;
         this._nombre = nombre.toUpperCase() ;
